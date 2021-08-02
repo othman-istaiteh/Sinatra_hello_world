@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  app:
+    build: ./App
+    ports:
+      - "4567:4567"
+    volumes:
+      - .:/App
